@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somatório (JavaScript)</title>
+</head>
+<body>
+    <div id="main">
+        <h1 id="titulo">Algoritmo de Somatório (JavaScript)</h1>
+        <div id="content">
+            <button onclick="window.location.href='index.html'">Voltar</button> <br/><br/>
+            <label for="quantidadeNumeros">Quantidade de Números:</label>
+            <input type="number" id="quantidadeNumeros" min="1" placeholder="Ex: 3">
+            <br><br>
+            <div id="inputsNumeros"></div> <!-- Local onde os campos de números serão gerados -->
+            <button id="gerarCampos">Gerar Campos</button>
+            <br><br>
+            <button id="calcularSomatorio">Calcular Somatório</button>
+            <p>Resultado: <span id="resultado"></span></p>
+            <button id="limpar">Limpar Resultado</button>
+        </div>
+    </div>
+    <script src="/JavaScript/somatorio.js"></script>
+</body>
+</html>
